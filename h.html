@@ -1,0 +1,28 @@
+<html>
+<body>
+	<script>
+		var num;
+		num=window.prompt("choose a number from 1 to 10");
+		var rand = Math.floor((Math.random()*10)+1);
+        if(num==rand){
+        	window.prompt("congratulations!");
+        }
+        
+        while(num!=rand){
+        	num=window.prompt("Please try again");
+
+        	if(num==rand){
+        		var out;
+        		out=window.prompt("congratulations!");
+        		break;
+        	}
+        	else{
+        		continue;
+        	}
+        }
+
+
+	</script>
+</body>
+</html>
+
